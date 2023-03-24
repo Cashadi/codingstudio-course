@@ -9,3 +9,18 @@ $(document).ready(function () {
   console.log(input.val('gak bahaya ta? kagaklah'));
   h2.empty();
 });
+
+// ha.addClass('biru);
+// h2.removeClass('border');
+
+let style = {
+  color: 'salmon',
+  fontsize: '100px',
+};
+let button = $('<button');
+let input = $('input');
+let p = $('p');
+
+button.on('click', function () {
+  p.toggleClass('biru');
+});
